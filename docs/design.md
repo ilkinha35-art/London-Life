@@ -1,14 +1,14 @@
 # Design do Jogo London Life
 
 ## Conceito
-Um jogo arcade ambientado em Londres, onde o jogador explora cenários icônicos e enfrenta desafios.
+Simulação arcade de Londres com ônibus e carros fluindo pelas ruas.
 
 ## Mecânicas
-- Movimento com setas do teclado
-- Coleta de pontos
-- Obstáculos e inimigos
-- Fases temáticas (ex.: Big Ben, Tower Bridge)
+- Veículos representados por retângulos coloridos
+- Movimento automático (fluxo de trânsito)
+- Cenário simples sem imagens externas
 
-## Estilo Visual
-- Sprites simples em pixel art
-- Fundo colorido representando cenários londrinos
+## Futuro
+- Adicionar personagem atravessando a rua
+- Sistema de pontuação
+- Obstáculos e desafios
