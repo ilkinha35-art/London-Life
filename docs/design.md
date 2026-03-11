@@ -1,7 +1,7 @@
 # Design do Jogo London Life
 
 ## Conceito
-Simulação arcade de Londres com ônibus e carros fluindo pelas ruas.
+Simulação arcade de Londres com carros, ônibus e caminhões fluindo pelas ruas.
 
 ## Mecânicas
 - Veículos representados por retângulos coloridos
