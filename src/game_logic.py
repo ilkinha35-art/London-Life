@@ -1,5 +1,4 @@
 import arcade
-import random
 
 class Vehicle:
     def __init__(self, x, y, width, height, color, speed):
