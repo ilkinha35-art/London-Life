@@ -10,11 +10,12 @@ class LondonLife(arcade.Window):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
         arcade.set_background_color(arcade.color.SKY_BLUE)
 
-        # Lista de veículos
+        # Lista de veículos: carro, ônibus e caminhão
         self.vehicles = [
-            Vehicle(100, 200, 80, 40, arcade.color.RED, 3),   # carro
+            Vehicle(100, 200, 80, 40, arcade.color.RED, 3),     # carro
             Vehicle(300, 300, 120, 50, arcade.color.BLUE, -2), # ônibus
-            Vehicle(500, 400, 80, 40, arcade.color.GREEN, 4), # carro
+            Vehicle(500, 400, 160, 60, arcade.color.GRAY, 2),  # caminhão
+            Vehicle(200, 500, 80, 40, arcade.color.GREEN, 4),  # carro
         ]
 
     def on_draw(self):
